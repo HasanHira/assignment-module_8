@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: transparent;
+    box-sizing: border-box;
+}
+*::placeholder {
+    color: rgba(138, 137, 138, 0.8);
+}
+body {
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-weight: normal;
+    background-image: url("https://cdn.ostad.app/public/upload/2022-11-27T06-52-05.802Z-logo%20ostad.png");
+    background-repeat: no-repeat;
+    background-position: 5% 95%;
+    background-size: 10%;
+    z-index: 1;
+}
+body::after {
+    background: linear-gradient(0deg, transparent, #cbfff5);
+    width: 20%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    display: block;
+    z-index: -1;
+}
+
+.container {
+    max-width: 70%;
+    width: 35rem;
+    margin: 2rem auto;
+}
+.page-head {
+    background: #03A9F4;
+    color: #f6f6f6;
+    text-align: center;
+}
+h2 {
+    padding: 0.5em 1.25em;
+    text-align: center;
+    border-top-right-radius: 2vmin;
+    border-top-left-radius: 2vmin;
+}
+form {
+    width: 95%;
+    margin: 0 auto;
+}
+label, input {
+    display: block;
+}
+label {
+    font-weight: bold;
+    color: #203cac;
+    margin-bottom: 0.35rem;
+}
+label span {
+    color: #ff6f00;
+}
+input {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.3vmin;
+    border: 1px solid #0037c6;
+}
+input:focus {
+    border: 1px solid #25cfc9;
+    outline: #87f3ff;
+}
+.show-note {
+    margin-top: -.75rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+    font-style: italic;
+    color: #7dbdf2;
+}
+button {
+    width: 100%;
+    border: none;
+    background: #0466f9;
+    color: #f3f3f3;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 1em 3em;
+    border-radius: 1vmin;
+    transition: all 0.3s ease;
+}
+button:hover,
+button:focus {
+    background: #0357d4;
+    box-shadow: 2px 2px 2px 0px #1d2037;
+}
+
+/* Success page */
+.success-body {
+    background: #ebdfac;
+}
+.center {
+    margin: 50vh auto;
+    text-align: center;
+    font-size: 2em;
+    color: #173849;
+}
+
+.center span {
+    color: #00b11b;
+}
+
+/* User content table */
+.table-content {
+    margin: 5em auto;
+    padding: 2em;
+    background: #fffcfc;
+    border-radius: 1vmin;
+}
+table {
+    width: 100%;
+}
+
+thead {
+    background: #3e2196;
+    color: #f7f7f7;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+  }
+tbody {
+    background: #b7dde8;
+}
+footer {
+    position: relative;
+}
+.footer-nav {
+    background: #eef4ff;
+    padding-block: 1em;
+}
+.footer-nav::after {
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 60%;
+    background: #bcc7db;
+    inset: 20% 49.5%;
+
+}
+.footer-nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+.footer-nav ul li {
+    display: inline-block;
+    margin: 0 1rem;
+}
+.footer-nav ul li a {
+    color: #222;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+.footer-nav ul li a:hover,
+.footer-nav ul li a:focus{
+    text-decoration: underline;
+}
