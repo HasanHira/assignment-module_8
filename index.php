@@ -23,10 +23,10 @@
                 <label for="eamil">Email Address: <span>*</span></label>
                 <input type="email" name="email" id="eamil" placeholder="Enter your email" required>
                 <label for="user-pass">Password: <span>*</span></label>
-                <input type="password" name="password" id="user-pass" placeholder="Type your pass..." required>
+                <input type="password" name="password" id="user-pass" placeholder="Type your password" required>
                 <label for="confirm-pass">Confirm Password: <span>*</span></label>
-                <input type="password" name="confirm_password" id="confirm-pass" placeholder="Confirm your pass..." required>
-                <button type="submit">Submit</button>
+                <input type="password" name="confirm_password" id="confirm-pass" placeholder="Confirm your password" required>
+                <button type="submit" value="submit">Submit</button>
             </form>
         </div>
     </main>

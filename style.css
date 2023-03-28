@@ -97,45 +97,14 @@ button:focus {
 }
 
 /* Success page */
-.success-body {
-    background: #ebdfac;
-}
-.center {
-    margin: 50vh auto;
-    text-align: center;
-    font-size: 2em;
-    color: #173849;
-}
-
-.center span {
-    color: #00b11b;
-}
-
-/* User content table */
-.table-content {
-    margin: 5em auto;
-    padding: 2em;
-    background: #fffcfc;
-    border-radius: 1vmin;
-}
-table {
-    width: 100%;
-}
-
-thead {
-    background: #3e2196;
-    color: #f7f7f7;
-}
-
-th, td {
-    padding: 15px;
-    text-align: left;
-  }
-tbody {
-    background: #b7dde8;
+.sucess-text {
+    color: #0ca814;
 }
 footer {
     position: relative;
+}
+.reg-foot {
+    margin-top: 75vh;
 }
 .footer-nav {
     background: #eef4ff;

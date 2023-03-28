@@ -1,15 +1,4 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>Login Form</title>
-</head>
-<body>
-	<h1>Login Form</h1>
-	
-</body>
-</html>
-
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -27,10 +16,10 @@
     <main>
         <div class="container">
             <form action="login.php" method="post">
-                <label for="email">Email Address: <span>*</span></label>
-                <input type="email" name="email" id="eamil" placeholder="Enter your email" required>
-                <label for="user-pass">Password: <span>*</span></label>
-                <input type="password" name="user-password" id="user-pass" placeholder="Type your pass..." required>
+                <label for="email">Email Address:</label>
+                <input type="email" name="email" id="eamil" placeholder="Enter your email!" required>
+                <label for="user-pass">Password:</label>
+                <input type="password" name="password" id="user-pass" placeholder="Type your password" required>
                 <button type="submit" value="Login">Submit</button>
             </form>
         </div>
